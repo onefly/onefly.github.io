@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="乱码," />
 
 
 
@@ -84,19 +84,16 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="问题描述，在统一头尾项目中，保存了一段HTML文本，这段文本编码是UTF-8,但是统一头尾系统需要将这段HTML文本推送到其他业务服务器并且生成两种编码文件，即utf8编码和GBK编码，需要涉及到转码问题。其中有几个空格在生成的utf8文件中显示正常，但是在gbk文件中乱码变成了问号。然后对该问题进行追踪，发现问题的关键，是编码方式：如果使用的Encoding是UTF-8的话，就会发生这种情况。因">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2016/06/15/hello-world/index.html">
+<meta property="og:title" content="乱码问题">
+<meta property="og:url" content="http://yoursite.com/2016/06/15/my-new-post/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-06-15T09:06:04.243Z">
+<meta property="og:description" content="问题描述，在统一头尾项目中，保存了一段HTML文本，这段文本编码是UTF-8,但是统一头尾系统需要将这段HTML文本推送到其他业务服务器并且生成两种编码文件，即utf8编码和GBK编码，需要涉及到转码问题。其中有几个空格在生成的utf8文件中显示正常，但是在gbk文件中乱码变成了问号。然后对该问题进行追踪，发现问题的关键，是编码方式：如果使用的Encoding是UTF-8的话，就会发生这种情况。因">
+<meta property="og:updated_time" content="2016-06-15T12:32:40.518Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="乱码问题">
+<meta name="twitter:description" content="问题描述，在统一头尾项目中，保存了一段HTML文本，这段文本编码是UTF-8,但是统一头尾系统需要将这段HTML文本推送到其他业务服务器并且生成两种编码文件，即utf8编码和GBK编码，需要涉及到转码问题。其中有几个空格在生成的utf8文件中显示正常，但是在gbk文件中乱码变成了问号。然后对该问题进行追踪，发现问题的关键，是编码方式：如果使用的Encoding是UTF-8的话，就会发生这种情况。因">
 
 
 
@@ -117,9 +114,9 @@ Quick">
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/06/15/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/06/15/my-new-post/"/>
 
-  <title> Hello World | Hexo </title>
+  <title> 乱码问题 | Hexo </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -239,7 +236,7 @@ Quick">
             
             
               
-                Hello World
+                乱码问题
               
             
           </h1>
@@ -251,7 +248,7 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Veröffentlicht am</span>
-            <time itemprop="dateCreated" datetime="2016-06-15T17:06:04+08:00" content="2016-06-15">
+            <time itemprop="dateCreated" datetime="2016-06-15T20:30:00+08:00" content="2016-06-15">
               2016-06-15
             </time>
           </span>
@@ -279,15 +276,7 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>问题描述，在统一头尾项目中，保存了一段HTML文本，这段文本编码是UTF-8,但是统一头尾系统需要将这段HTML文本推送到其他业务服务器并且生成两种编码文件，即utf8编码和GBK编码，需要涉及到转码问题。<br>其中有几个空格在生成的utf8文件中显示正常，但是在gbk文件中乱码变成了问号。<br>然后对该问题进行追踪，发现问题的关键，是编码方式：如果使用的Encoding是UTF-8的话，就会发生这种情况。因为UTF-8的字符集比GBK的字符集要大，一定是原HTML文本中使用了UTF8编码中存在而GBK编码中不存在的字符，<br>所以在生成的GBK编码文件中出现了不认识的UTF8编码字符，无法解码，所以展示为了乱码问号。<br>问题的根源，在于UTF-8这种编码里面，存在一个特殊的字符，其编码是“0xC2 0xA0”，转换成字符的时候，表现为一个空格，跟一般的半角空格（ASCII 0x20）一样，唯一的不同是它的宽度不会被压缩，<br>因此比较多的被用于网页排版（如首行缩进之类）。而其他的编码方式如GB2312、Unicode之类并没有这样的字符，因此如果简单地进行编码转换，生成地GB2312/Unocode字符串中，<br>这个字符就会被替换成为问号（ASCII ox3F）。此时如果进行写库、写文件之类，就会把问号直接写入了。<br>猜测，碰到这个问题的原因有两种：一种是在UTF-8编码下进行了转换，产生了这个字符；还有一种就是网页中直接采用了这个字符进行排版。<br> 知道了具体原因，就有解决方法了。方法就是：在得到UTF-8字符串之后，先进行一个替换，把这个特殊的空格替换为普通的空格，如果是HTML串，建议替换为（&nbsp;）<br>java版：<br>            byte bytes[] = {(byte) 0xC2,(byte) 0xA0};<br>            String utfSpace = new String(bytes,”utf-8”);<br>            html = html.replaceAll(utfSpace, “&nbsp;”);<br>  这样做，就不会把串里面本来应该有的问号错误的替换为空格。也不会看到讨厌的问号，能保存原来字符串的真面目了。<br>   需要强调的是，替换之前不能进行编码转换，一定要继续使用UTF-8编码。如果已经转换成其他编码，那么错误就已经不可逆转了。没有办法再区分这个错误的问号和正常的问号之间的差别了。</p>
 
       
     </div>
@@ -307,18 +296,24 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/乱码/" rel="tag">#乱码</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/06/15/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/06/15/my-new-post/" rel="prev" title="乱码问题">
-                乱码问题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -425,7 +420,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <p class="post-toc-empty">Dieser Artikel hat kein Inhaltsverzeichnis</p>
             
           </div>
         </section>
